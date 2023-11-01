@@ -26,6 +26,6 @@ dependencyResolutionManagement {
 }
 
 dependencies {
-        implementation 'com.github.s-wendel:DiceRolla:THE_VERSION'
+  implementation 'com.github.s-wendel:DiceRolla:THE_VERSION'
 }
 ```

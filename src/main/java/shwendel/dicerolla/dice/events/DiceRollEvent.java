@@ -40,6 +40,10 @@ public class DiceRollEvent extends Event implements Cancellable {
         return HANDLERS;
     }
 
+    public static HandlerList getHandlerList() {
+        return HANDLERS;
+    }
+
     public Dice getDice() {
         return dice;
     }

@@ -1,0 +1,19 @@
+name: DiceRolla
+version: '${project.version}'
+main: shwendel.dicerolla.DiceRolla
+api-version: 1.20
+authors: [ shwendel ]
+description: Oh it's dice rolling
+commands:
+  dicerolla:
+    description: DiceRolla!!!!!!!
+  roll:
+    description: Roll a dice
+  broll:
+    description: Roll a dice but it broadcasts I think
+
+permissions:
+  dicerolla.broadcast:
+    description: Able to run /broll
+  dicerolla.reload:
+    description: Able to run /dicerolla reload

@@ -1,0 +1,30 @@
+# Delete the 'dice' section to allow all dice to go through
+# In addition, you can uncomment the line below to set a max to dice
+#max_sides: 50
+dice:
+  - 4
+  - 6
+  - 8
+  - 10
+  - 20
+  - 100
+
+messages:
+  # Hex supported
+  roll_help:
+    - "&#ebd723&lDICEROLLA &#e6e2d5/roll <number>"
+  invalid_dice:
+    - "&#ebd723&lDICEROLLA &#e6e2d5That isn't a valid dice!"
+  roll_result:
+    - "&#ebd723&lDICEROLLA &#e6e2d5You rolled a &#ebd723%result% &8(+%modifier%)"
+  broll_result:
+    - "&#ebd723&lDICEROLLA &#ebd723%player% &#e6e2d5rolled a &#ebd723%result% &8(+%modifier%)"
+  no_permission:
+    - "&#ebd723&lDICEROLLA &#e6e2d5No permission"
+  reload_config:
+    - "&#ebd723&lDICEROLLA &#e6e2d5Reloaded the config!!!!!!!!"
+  dicerolla_help:
+    - "&#ebd723&lDICEROLLA"
+    - "&#e6e2d5/dicerolla reload -> Reload the config!!!!!!!!"
+    - "&#e6e2d5/roll -> Roll a dice"
+    - "&#e6e2d5/broll -> Roll a dice and broadcast the results"

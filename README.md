@@ -17,7 +17,7 @@ Maven!!!!!!!!!!!!!!!!!!!
 <dependency>
     <groupId>com.github.s-wendel</groupId>
     <artifactId>DiceRolla</artifactId>
-    <version>THE_VERSION</version>
+    <version>1.0</version>
 </dependency>
 ```
 
@@ -32,6 +32,6 @@ dependencyResolutionManagement {
 }
 
 dependencies {
-  implementation 'com.github.s-wendel:DiceRolla:THE_VERSION'
+  implementation 'com.github.s-wendel:DiceRolla:1.0'
 }
 ```
